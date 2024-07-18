@@ -30,8 +30,8 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/your-username/car-sales-app.git
-    cd car-sales-app
+    git clone https://github.com/eugene12345678/Phase-1-Project.git
+    cd phase-1-project
     ```
 
 2. **Install JSON Server**
@@ -40,13 +40,13 @@ Before you begin, ensure you have met the following requirements:
     npm install -g json-server
     ```
 
-3. **Start JSON Server**
+3. **Run JSON Server**
 
     ```bash
     json-server --watch db.json
     ```
 
-    This will start the JSON Server and watch the `db.json` file for changes. The server will run on `http://localhost:3000`.
+    This will start the JSON Server and watch the `db.json` file for changes. The server will run on `http://localhost:3000/cars`.
 
 4. **Open index.html in your browser**:
 
