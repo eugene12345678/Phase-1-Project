@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const poster = document.querySelector('#poster');
     const title = document.querySelector('#title');
     const topspeed = document.querySelector('#topspeed');
-    const showtime = document.querySelector('#showtime');
+    const horsepower = document.querySelector('#horsepower');
     const availableCars = document.querySelector('#available-cars');
     const description = document.querySelector('#description');
     const buyCarButton = document.querySelector('#buy-car');
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         poster.src = data.poster;
         title.textContent = data.title;
         topspeed.textContent = data.topspeed;
-        showtime.textContent = data.showtime;
+        horsepower.textContent = data.horsepower;
         description.textContent = data.description;
         updateCars(data.capacity - data.cars_sold); // Update available cars
         carDetails.classList.remove('hidden'); // Show the car details section
