@@ -17,8 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Load all cars on page load
     loadCars();
-
-    // Fetch all cars from the API and display them in the carousel
+     // Fetch all cars from the API and display them in the carousel
     function loadCars() {
         fetch(url)
             .then(response => response.json())
