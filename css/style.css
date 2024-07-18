@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.poster {
+    display: flex;
+    padding: 20px;
+    font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#carousel-poster {
+    width: 300px;
+    margin-right: 20px;
+    
+}
+
+#carousel-poster h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+#carousel img {
+    width: 250px; 
+    height: 350px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#carousel img:hover {
+    transform: scale(1.1);
+}
+
+#car-details {
+    flex: 1;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+}
+
+#car-details.hidden {
+    display: none;
+}
+
+#poster {
+    width: 400px; 
+    height: 600px; 
+    object-fit: cover;
+}
+
+#details {
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #carousel-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #car-details {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #poster {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.container {
+    position: relative;
+    left: 87%;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.mainbox {
+    box-sizing: border-box;
+    position: relative;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 160px;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.checkbox:focus {
+    border: none;
+    outline: none;
+}
+
+.checkbox:checked {
+    right: 10px;
+}
+
+.checkbox:checked ~ .mainbox {
+    width: 50px;
+}
+
+.checkbox:checked ~ .mainbox .search_input {
+    width: 0;
+    height: 0px;
+}
+
+.checkbox:checked ~ .mainbox .iconContainer {
+    padding-right: 8px;
+}
+
+.checkbox {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    z-index: 9;
+    cursor: pointer;
+    appearance: none;
+}
+
+.search_input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search_input::placeholder {
+    color: rgba(255, 255, 255, 0.776);
+}
+
+.iconContainer {
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.search_icon {
+    box-sizing: border-box;
+    fill: white;
+    font-size: 1.3em;
+}
+
+#buy-car {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#buy-car:active {
+    scale: 0.92;
+}
+
+#buy-car:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
+
+ #delete-car {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#delete-car:active {
+    scale: 0.92;
+}
+a
+#delete-car:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+} 
+
+::-webkit-scrollbar{
+    display: none;
+}

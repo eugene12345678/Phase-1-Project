@@ -1,0 +1,188 @@
+{
+    "cars": [
+      {
+        "id": "1",
+        "title": "Dodge Charger RT",
+        "topspeed": "155",
+        "capacity": 30,
+        "showtime": "04:00PM",
+        "cars_sold": 27,
+        "description": "The Dodge Charger R/T is a performance-oriented variant of the Charger, designed for both road use and track performance. With its classic design, powerful engine, and balanced handling, the Charger R/T offers an exhilarating driving experience. LED headlights, sculpted lines, and a rear spoiler add to its sporty appeal. 🚗💨",
+        "poster": "https://static.displate.com/857x1200/displate/2023-04-27/2c11603bcb4db392e6972db54c37a802_d20570b4eda85f8290d985f443bda79a.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Lamborghini Huracan",
+        "topspeed": "320",
+        "capacity": 50,
+        "showtime": "06:45PM",
+        "cars_sold": 44,
+        "description": "The Lamborghini Huracán is an Italian supercar that combines cutting-edge technology with exquisite design. Its sleek lines and seamless roof profile reflect Lamborghini’s DNA. Under the hood, a powerful 5.2-liter V-10 engine pairs with a seven-speed dual-clutch transmission, delivering an exhilarating driving experience. The Huracán embodies the pinnacle of Lamborghini’s craftsmanship and performance . 🏎️🔥",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyOS7h5Z5VYwm6VQRUkJrmiQtUjgykEKRYfWAawCBTzfyb4E8OZRfMXuKGzwqy4RYgOug&usqp=CAU"
+      },
+      {
+        "id": "3",
+        "title": "Ferrari F150",
+        "topspeed": "230",
+        "capacity": 50,
+        "showtime": "09:30PM",
+        "cars_sold": 31,
+        "description": "The Ferrari 150º Italia, previously known as the Ferrari F150, was a Formula One car used by Ferrari during the 2011 Formula One season. Designed by Aldo Costa, Pat Fry, Nikolas Tombazis, and Marco de Luca, it featured a 2,398 cc V8 engine and was driven by Fernando Alonso and Felipe Massa. The car’s name celebrated the 150th anniversary of Italy’s unification. 🏎️🇮🇹",
+        "poster": "https://static.printler.com/cache/b/8/2/3/8/1/b8238186df8ae99114bcb04c07a5bb03cfd396a5.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Porsche 911",
+        "topspeed": "200",
+        "capacity": 40,
+        "showtime": "09:00PM",
+        "cars_sold": 31,
+        "description": "The Porsche 911, also known as the Nine Eleven (or Neunelf in German), is a legendary two-door 2+2 high-performance rear-engined sports car. It was introduced in September 1964 by Porsche AG in Stuttgart, Germany. Here are some key points about this iconic automobile",
+        "poster": "https://images-cdn.ubuy.co.in/634d0f52c5c4db0fcd5fee63-porsche-911-poster-car-poster-wall.jpg"
+      },
+      {
+        "id": "5",
+        "title": "Dodge Challenger Hellcat",
+        "topspeed": "203",
+        "capacity": 50,
+        "showtime": "03:30PM",
+        "cars_sold": 45,
+        "description": "The Dodge Challenger Hellcat is a modern muscle car known for its raw power and retro styling. Equipped with a supercharged 6.2-liter V8 engine, it produces up to 807 horsepower (in the Hellcat Super Stock variant). The Hellcat can accelerate from 0 to 60 mph in just 3.25 seconds and boasts a top speed of 203 mph. While fuel economy isn’t its strong suit, the Challenger Hellcat offers spacious seating and a generous trunk space of 16.2 cubic feet . 🚗💨",
+        "poster": "https://i.pinimg.com/736x/fa/d2/3a/fad23aff8cb077024f797a54e77b817b.jpg"
+      },
+      {
+        "id": "6",
+        "title": "BMW",
+        "topspeed": "155",
+        "capacity": 30,
+        "showtime": "10:30PM",
+        "cars_sold": 16,
+        "description": "Certainly! BMW is a German multinational manufacturer of luxury vehicles and motorcycles. The company’s full name is Bayerische Motoren Werke, which translates to “Bavarian Motor Works” in English. BMW is headquartered in Munich, Bavaria, Germany. It has a rich history and is known for producing high-quality cars and motorcycles.",
+        "poster": "https://storage.googleapis.com/pod_public/750/174713.jpg"
+      },
+      {
+        "id": "7",
+        "title": "McLaren P1",
+        "topspeed": "217",
+        "capacity": 30,
+        "showtime": "07:30PM",
+        "cars_sold": 22,
+        "description": "The McLaren P1 is a flagship sports car produced by British marque McLaren Automotive. Styled by American car designer Frank Stephenson, it is the second installment in McLaren’s Ultimate Series after the iconic McLaren F1",
+        "poster": "https://storage.googleapis.com/pod_public/1300/166660.jpg"
+      },
+      {
+        "id": "8",
+        "title": "Mercedes-AMG GT",
+        "topspeed": "189",
+        "capacity": 40,
+        "showtime": "08:30PM",
+        "cars_sold": 32,
+        "description": "The Mercedes-AMG GT is a high-performance sports car crafted by Mercedes-AMG, renowned for its striking design and powerful performance. Launched in 2014, it features a front-mid engine layout, ensuring balanced weight distribution and superb handling. The GT lineup includes various models, from the base GT to the track-focused GT R and GT Black Series, all equipped with handcrafted AMG V8 engines. Known for its advanced aerodynamics and luxurious interiors, the AMG GT perfectly blends race-bred performance with everyday usability, making it a standout in the sports car segment.",
+        "poster": "https://i.pinimg.com/736x/e8/66/b0/e866b00f12367b8f0c1d4ee8a8d64098.jpg"
+      },
+      {
+        "id": "9",
+        "title": "Nissan GTR",
+        "topspeed": "196",
+        "capacity": 40,
+        "showtime": "07:30PM",
+        "cars_sold": 22,
+        "description": "The Nissan GT-R is a high-performance sports car known for its exceptional speed and advanced technology. Launched in 2007, it features a powerful twin-turbocharged V6 engine and an advanced all-wheel-drive system, providing remarkable handling and acceleration. The GT-R combines a distinctive aggressive design with a luxurious interior, making it a popular choice among car enthusiasts.",
+        "poster": "https://www.swagshirts99.com/wp-content/uploads/2022/04/Drifting-Nissan-GTR.webp"
+      },
+      {
+        "id": "10",
+        "title": "Wrangler Jeep",
+        "topspeed": "120",
+        "capacity": 50,
+        "showtime": "10:00PM",
+        "cars_sold": 44,
+        "description": "The Jeep Wrangler is an iconic off-road vehicle known for its rugged design and exceptional versatility. First introduced in 1986, it combines classic styling with modern features, making it a favorite among outdoor enthusiasts. The Wrangler is equipped with advanced four-wheel-drive systems, allowing it to tackle various terrains with ease while offering removable doors and a fold-down windshield for an authentic open-air experience.",
+        "poster": "https://mobimg.b-cdn.net/v3/fetch/ba/ba7627c8089e42cddfae078f078608b1.jpeg"
+      },
+      {
+        "id": "11",
+        "title": "Ford Mustang Gt350r",
+        "topspeed": "241",
+        "capacity": 30,
+        "showtime": "06:00PM",
+        "cars_sold": 12,
+        "description": "The Ford Mustang GT350R is a high-performance sports car designed for track enthusiasts, blending iconic styling with cutting-edge engineering. Introduced in 2015 as part of the Mustang lineup, the GT350R features a naturally aspirated 5.2-liter V8 engine that delivers exhilarating power and a distinctive roar. With lightweight components and advanced aerodynamics, this model is built for exceptional handling and agility, making it a favorite among performance drivers.",
+        "poster": "https://i.pinimg.com/736x/b0/2a/86/b02a865d3ed15fd3507809eae2410391.jpg"
+      },
+      {
+        "id": "12",
+        "title": "Rolls-Royce Phantom",
+        "topspeed": "250",
+        "capacity": 30,
+        "showtime": "07:00PM",
+        "cars_sold": 20,
+        "description": "The Rolls-Royce Phantom is the epitome of luxury and sophistication, representing the pinnacle of automotive craftsmanship. First introduced in 1925 and relaunched in 2003, the Phantom combines timeless design with state-of-the-art technology, featuring a powerful V12 engine and a meticulously crafted interior filled with exquisite materials. Known for its unparalleled comfort and silent ride, the Phantom is a favorite among luxury car connoisseurs.",
+        "poster": "https://www.lamborghinigoldcoast.com/imagetag/9095/main/l/New-2021-Rolls-Royce-Phantom-Extended-WHEELBASE-Tempus-Collection-1617143416.jpg"
+        },
+      {
+        "id": "13",
+        "title": "Audi R8 V10 Plus",
+        "topspeed": "330",
+        "capacity": 40,
+        "showtime": "09:00PM",
+        "cars_sold": 31,
+        "description": "The Audi R8 V10 Plus is a high-performance supercar known for its striking design and exhilarating driving experience. Launched in 2015, it features a naturally aspirated 5.2-liter V10 engine that delivers exceptional power and a thrilling soundtrack. With its lightweight construction and advanced all-wheel-drive system, the R8 V10 Plus offers outstanding handling and acceleration, making it a standout in the sports car segment.",
+        "poster": "https://llfgames.com/wp-content/uploads/2024/06/LLF-7.5K-Win-Every-time-v3-1.psd-91.png"
+      },
+      {
+        "id": "14",
+        "title": "1966 Chevrolet Corvette",
+        "topspeed": "266",
+        "capacity": 50,
+        "showtime": "08:00PM",
+        "cars_sold": 40,
+        "description": "The 1996 Chevrolet Corvette is a classic American sports car that combines iconic styling with impressive performance. Part of the C4 generation, this model features a 5.7-liter V8 engine, producing robust power and delivering a thrilling driving experience. With a lightweight design and a balanced chassis, the 1996 Corvette is celebrated for its agility and sharp handling, making it a favorite among car enthusiasts.",
+        "poster": "https://classicpromenade.com/wp-content/uploads/2022/08/20220831_204745348_iOS-scaled.jpg"
+      },
+      {
+        "id": "15",
+        "title": "Lexus LC500",
+        "topspeed": "270",
+        "capacity": 50,
+        "showtime": "04:45PM",
+        "cars_sold": 33,
+        "description": "The Lexus LC 500 is a luxury sports coupe that combines stunning design with powerful performance. Launched in 2017, it features a 5.0-liter V8 engine that delivers a thrilling driving experience, complemented by a sophisticated suspension system for exceptional handling. With its striking exterior and luxurious interior, the LC 500 stands out as a symbol of elegance and innovation in the automotive world.",
+        "poster": "https://i2-prod.derbytelegraph.co.uk/incoming/article6643915.ece/ALTERNATES/s1200c/0_GB_TEM_040222_lc500_result.jpg"
+      },
+      {
+        "id": "16",
+        "title": "Bugatti Chiron",
+        "topspeed": "420",
+        "capacity": 50,
+        "showtime": "03:30PM",
+        "cars_sold": 45,
+        "description": "The Bugatti Chiron is a hypercar renowned for its unparalleled performance and exquisite design. Launched in 2016, it features an 8.0-liter quad-turbocharged W16 engine that produces an astonishing 1,479 horsepower, allowing it to achieve extraordinary speeds. With its luxurious interior and advanced aerodynamics, the Chiron represents the pinnacle of automotive engineering and craftsmanship",
+        "poster": "https://storage.googleapis.com/pod_public/1300/166787.jpg"
+      },
+      {
+        "id": "17",
+        "title": "Black Range Rover",
+        "topspeed": "225",
+        "capacity": 30,
+        "showtime": "10:30PM",
+        "cars_sold": 16,
+        "description": "The Black Range Rover is a luxurious and versatile SUV known for its commanding presence and advanced capabilities. Combining elegant design with off-road prowess, it features a sophisticated interior with premium materials and cutting-edge technology. Equipped with powerful engine options, the Range Rover delivers a smooth and powerful driving experience, both on and off the road.",
+        "poster": "https://wallpaperaccess.com/full/2103829.jpg"
+      },
+      {
+        "id": "18",
+        "title": "Toyota GR Supra A91",
+        "topspeed": "250",
+        "capacity": 50,
+        "showtime": "03:30PM",
+        "cars_sold": 45,
+        "description": "The Toyota GR Supra A91 is a high-performance sports car known for its sleek design and impressive handling. It's equipped with a turbocharged inline-six engine producing around 382 horsepower and 368 lb-ft of torque. This model emphasizes agility and speed, capable of accelerating from 0 to 60 mph in just over 4 seconds.",
+        "poster": "https://static.displate.com/380x270/displate/2023-05-22/8389225eeef6058addf1efb6d368dc1d_4c4958cb4088ceb9f58251712cd908ae.jpg"
+      }
+    ]
+  }
+   
+   
+   
+   

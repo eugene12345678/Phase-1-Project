@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Sales</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <input checked="" class="checkbox" type="checkbox"> 
+            <div class="mainbox">
+                <div class="iconContainer">
+                    <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="search_icon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+                    </div>
+             <input class="search_input" placeholder="search" type="text">
+            </div>
+        </div>
+            <div class="poster"> 
+            <div id="carousel-poster">
+                <h2>VROOM VROOM</h2>
+                <div id="carousel">
+                </div>
+            </div>
+            <div id="car-details" class="hidden">
+                <img id="poster" src="" alt="Car Poster">
+                <div id="details">
+                    <h2 id="title"></h2>
+                    <p><strong>Top Speed:</strong> <span id="topspeed"></span> km/h</p>
+                    <p><strong>Showtime:</strong> <span id="showtime"></span></p>
+                    <p><strong>Available Cars:</strong> <span id="available-cars"></span></p>
+                    <p id="description"></p>
+                    <button id="buy-car">Buy</button>
+                    <button id="delete-car">Delete</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
