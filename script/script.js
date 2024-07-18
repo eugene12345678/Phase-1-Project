@@ -1,9 +1,6 @@
-const url = 'http://localhost:3000/cars'; // Base URL for the API
+const url = 'https://phase-1-backend.vercel.app/cars'; // Base URL for the API
 
 document.addEventListener('DOMContentLoaded', () => {
-     // Load all cars on page load
-     loadCars();
-
     // Select DOM elements
     const carousel = document.querySelector('#carousel');
     const poster = document.querySelector('#poster');
@@ -16,32 +13,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const deleteCarButton = document.querySelector('#delete-car');
     const carDetails = document.querySelector('#car-details');
     let currentCarId; // Variable to store the ID of the currently displayed car
-    const searchInput = document.querySelector(".search_input")
+    const searchInput = document.querySelector(".search_input");
+
+    // Load all cars on page load
+    loadCars();
 
     // Fetch all cars from the API and display them in the carousel
     function loadCars() {
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                const filteredCars = data.filter(movie => movie.title.toLowerCase().includes(searchInput.value.toLowerCase()));
+                const filteredCars = data.filter(car => car.title.toLowerCase().includes(searchInput.value.toLowerCase()));
                 displayCars(filteredCars);
             })
             .catch(handleError);
     }
 
-    searchInput.addEventListener("change", loadCars);
+    searchInput.addEventListener("input", loadCars);
+
     // Display the cars in the carousel
     function displayCars(data) {
         carousel.innerHTML = ''; // Clear the carousel
-
 
         data.forEach(car => {
             const carItem = createCarItem(car); // Create a car item for each car
             carousel.appendChild(carItem); // Add the car item to the carousel
         });
-    if (data.length > 0 ) {
-        fetchCars(data[0].id); // Fetch and display details of the first car
-    }
+
+        if (data.length > 0) {
+            fetchCarDetails(data[0].id); // Fetch and display details of the first car
+        }
     }
 
     // Create an image element for a car item
@@ -49,13 +50,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const carItem = document.createElement('img');
         carItem.src = car.poster;
         carItem.alt = car.title;
-        // Add click event to fetchCars and display details of the clicked car
-        carItem.addEventListener('click', () => fetchCars(car.id));
+        // Add click event to fetchCarDetails and display details of the clicked car
+        carItem.addEventListener('click', () => fetchCarDetails(car.id));
         return carItem;
     }
 
     // Fetch details of a specific car by its ID
-    function fetchCars(id) {
+    function fetchCarDetails(id) {
         fetch(`${url}/${id}`)
             .then(response => response.json())
             .then(updateCarDetails)
@@ -83,16 +84,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Add click event listener to the buy car button
-    buyCarButton.addEventListener('click', buyCars);
+    buyCarButton.addEventListener('click', buyCar);
 
     // Handle buying a car
-    function buyCars() {
+    function buyCar() {
         fetch(`${url}/${currentCarId}`)
             .then(response => response.json())
             .then(data => {
                 const available = data.capacity - data.cars_sold;
                 if (available > 0) {
-                    updateCarsSold(data.cars_sold + 1); // Update cars sold if available
+                    // Update UI immediately
+                    const newAvailable = available - 1;
+                    updateCars(newAvailable);
+
+                    // Proceed to update cars sold on the server
+                    updateCarsSold(data.cars_sold + 1);
                 } else {
                     alert('Sorry but this car is sold out!'); // Alert if no cars are available
                 }
@@ -125,7 +131,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mark a car as sold out in the carousel
     function markAsSoldOut(title) {
-        document.querySelector(`#carousel img[alt="${title}"]`).classList.add('sold-out');
+        const soldOutCar = document.querySelector(`#carousel img[alt="${title}"]`);
+        if (soldOutCar) {
+            soldOutCar.classList.add('sold-out');
+        }
         alert('Sorry but this car is sold out!'); // Alert the user
     }
 
