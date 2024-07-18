@@ -117,6 +117,8 @@ Contributions are always welcome! Please feel free to submit a pull request or o
 
 ## AUTHOR
 [Eugene Mathenge](https://github.com/dashboard)
+## Deployed
+[LINK](https://phase-1-project-one-zeta.vercel.app/)
 
 
 
