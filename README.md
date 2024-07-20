@@ -1,3 +1,4 @@
+# Phase-1-Project
 # Car Sales Web Application
 
 This project is a web application that displays a list of cars available for sale. Users can search for cars, view details of a selected car, buy a car, and delete a car from the database. The application uses a RESTful API to fetch car data from a JSON server.
