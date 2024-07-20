@@ -47,7 +47,7 @@ Before you begin, ensure you have met the following requirements:
     json-server --watch db.json
     ```
 
-    This will start the JSON Server and watch the `db.json` file for changes. The server will run on `http://localhost:3000/cars`.
+    This will start the JSON Server and watch the `db.json` file for changes. The server will run on `http://localhost:3000`.
 
 4. **Open index.html in your browser**:
 
