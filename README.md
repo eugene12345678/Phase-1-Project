@@ -7,7 +7,6 @@ This project is a web application that displays a list of cars available for sal
 
 - **Search**: Users can search for cars by their titles.
 - **View Details**: Users can click on a car to view its details, including the poster, title, top speed, price, and description
-- **View Details**: Users can click on a car to view its details, including the poster, title, top speed, horse power, and description.
 - **Buy Car**: Users can buy a car, which updates the number of available cars.
 - **Delete Car**: Users can delete a car from the database.
 
