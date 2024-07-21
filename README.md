@@ -1,3 +1,4 @@
+# Phase-1-Project
 # Car Sales Web Application
 
 This project is a web application that displays a list of cars available for sale. Users can search for cars, view details of a selected car, buy a car, and delete a car from the database. The application uses a RESTful API to fetch car data from a JSON server.
@@ -5,7 +6,11 @@ This project is a web application that displays a list of cars available for sal
 ## Features
 
 - **Search**: Users can search for cars by their titles.
+<<<<<<< HEAD
 - **View Details**: Users can click on a car to view its details, including the poster, title, top speed, price, and description.
+=======
+- **View Details**: Users can click on a car to view its details, including the poster, title, top speed, horse power, and description.
+>>>>>>> origin/main
 - **Buy Car**: Users can buy a car, which updates the number of available cars.
 - **Delete Car**: Users can delete a car from the database.
 
@@ -46,7 +51,7 @@ Before you begin, ensure you have met the following requirements:
     json-server --watch db.json
     ```
 
-    This will start the JSON Server and watch the `db.json` file for changes. The server will run on `http://localhost:3000/cars`.
+    This will start the JSON Server and watch the `db.json` file for changes. The server will run on `http://localhost:3000`.
 
 4. **Open index.html in your browser**:
 
@@ -117,6 +122,8 @@ Contributions are always welcome! Please feel free to submit a pull request or o
 
 ## AUTHOR
 [Eugene Mathenge](https://github.com/dashboard)
+## Deployed
+[LINK](https://phase-1-project-one-zeta.vercel.app/)
 
 
 
