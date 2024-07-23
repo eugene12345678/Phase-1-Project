@@ -110,7 +110,7 @@ The main functionality is implemented in the `script.js` file. Here's a brief ov
 - `updateCarsSold(updatedCarsSold)`: Updates the number of cars sold for the current car.
 - `markAsSoldOut(title)`: Marks a car as sold out in the carousel.
 - `deleteCar()`: Handles deleting a car.
-- `handleError(error)`: Handles errors by logging them to the console.
+- `handleError(error)`: Handles errors by logging them to the console
 
 ## Contributing
 
@@ -118,7 +118,7 @@ Contributions are always welcome! Please feel free to submit a pull request or o
 
 ## AUTHOR
 [Eugene Mathenge](https://github.com/dashboard)
-## Deployed
+## Deployed Link
 [LINK](https://phase-1-project-one-zeta.vercel.app/)
 
 
