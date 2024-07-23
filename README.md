@@ -23,7 +23,7 @@ This project is a web application that displays a list of cars available for sal
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js installed on your computer
+- Node.js 18+ installed on your computer
 - JSON Server installed globally or locally in your project
 
 ### Installation
