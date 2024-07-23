@@ -53,7 +53,7 @@ Before you begin, ensure you have met the following requirements:
 
     Simply open the `index.html` file in your preferred web browser to run the application.
 
-## API Endpoints
+## API 
 
 The application interacts with the following API endpoints:
 
