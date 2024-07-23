@@ -15,7 +15,7 @@ This project is a web application that displays a list of cars available for sal
 - HTML
 - CSS
 - JavaScript
-- JSON Server 
+- JSON Server (from a API)
 
 ## Getting Started
 
