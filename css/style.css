@@ -13,7 +13,7 @@ body {
     padding: 20px;
     font-family: "Wittgenstein", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
